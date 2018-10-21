@@ -11,8 +11,9 @@
 
 .art-item {
   padding: 20rpx;
+  height: 190rpx;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 .art-body {
   display: flex;
@@ -22,14 +23,15 @@
 .item-img {
   width: 150rpx;
   height: 150rpx;
-  display: block;
 }
-.art-text {
-  display: flex;
+
+.item-body{
   flex-direction: column;
+  height: 190rpx;
 }
 .item-title {
   width: 100%;
+  display: block;
   margin-left: 15rpx;
   font-size: 35rpx;
   color: black;
@@ -38,6 +40,7 @@
 
 .item-desc {
   width: 100%;
+  display: block;
   margin-left: 15rpx;
   font-size: 30rpx;
   color: grey;
@@ -47,6 +50,9 @@
 
 .item-line {
   width: 100%;
+  margin-left: 15rpx;
   height: 5rpx;
   background: #f7ebeb;
+  position:fixed;
+  bottom: 0;
 }

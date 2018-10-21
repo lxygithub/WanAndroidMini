@@ -9,9 +9,11 @@
 </swiper>
 <view class='article-list'>
   <view class='art-item'>
-    <image class='item-img' src='/images/logo.jpg'/>
-    <text class='item-title'>标题</text>
-    <text class='item-desc'>描述。。。。。。。。。</text>
-    <view class='item-line'/>
+    <image class='item-img' src='/images/logo.jpg' />
+    <view class='item-body'>
+      <text class='item-title'>标题</text>
+      <text class='item-desc'>描述。。。。。。。。。</text>
+      <view class='item-line' />
+    </view>
   </view>
 </view>
